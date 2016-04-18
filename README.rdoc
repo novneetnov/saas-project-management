@@ -20,6 +20,16 @@
 	rails db
 
 
+== Setup email with sendgrid  
+
+	heroku addons:create sendgrid:starter
+	heroku config:set SENDGRID_USERNAME=
+	heroku config:set SENDGRID_PASSWORD=
+	heroku config
+
+
+
+
 
 
 
