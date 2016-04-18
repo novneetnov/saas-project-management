@@ -1,0 +1,25 @@
+=SaaS Project Tracker
+
+==Steps taken to setup the app:   
+
+1. Setup postgres in the system: 
+	sudo -u postgres createuser -s novneet
+2. Set password for the database:
+	sudo -u postgres psql
+	\password novneet
+3. Create the rails app:
+	rails new saas-project-tracking -d postgresql
+	cd saas-project-tracking
+4. Configure database.yml file. Below the dafault section
+	host: localhost
+	username: novneet
+	password: password
+5. Create the databases for rails:
+	rake db:create
+6. Login to rails database:
+	rails db
+
+
+
+
+
