@@ -1,4 +1,4 @@
-=SaaS Project Tracker
+=SaaS Project Tracker: This project is currently under WIP indefinitely.
 
 ==Steps taken to setup the app:   
 
